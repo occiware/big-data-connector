@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<occi:Extension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:occi="http://schemas.ogf.org/occi/core/ecore" name="bigdata" scheme="http://org.occiware/platform/bigdata#" description="The bigdata extension enables to modelize big data platform">
+  <import href="http://schemas.ogf.org/occi/core#/"/>
+  <import href="http://schemas.ogf.org/occi/platform#/"/>
+  <mixins name="Storm" scheme="http://org.occiware/platform/bigdata#">
+    <attributes name="occiware.bigdata.workersNumber" mutable="false" default="2" description="workersNumber is the number of worker that will be deployed">
+      <type xsi:type="occi:NumericType" href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <attributes name="occiware.bigdata.uiPort" mutable="false" default="8099" description="uiPort is the port that will display visdomuser interface ">
+      <type xsi:type="occi:NumericType" href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <applies href="http://schemas.ogf.org/occi/platform#//@kinds[term='application']"/>
+  </mixins>
+  <mixins name="HDFS" scheme="http://org.occiware/platform/bigdata#">
+    <attributes name="occiware.bigdata.uiPort" mutable="false" default="6000" description="uiPort will display HDFS user interface">
+      <type xsi:type="occi:NumericType" href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <attributes name="occiware.bigdata.dataNodesIp" mutable="false" default="" description="dataNodesIp is list of nodes ip" type="//@types.0"/>
+    <attributes name="occiware.bigdata.instanceName" mutable="false" default="hdfsContainer" description="instanceName is the hdfsContainer name">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <attributes name="occiware.bigdata.masterNodePort" mutable="false" default="50010" description="masterNodePort is the port entry of the master datanode of HDFS ">
+      <type xsi:type="occi:NumericType" href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <attributes name="occiware.bigdata.masterNodeIp" mutable="false" required="true" description="masterNodeIp is the IP adress of the HDFS master node">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <applies href="http://schemas.ogf.org/occi/platform#//@kinds[term='component']"/>
+  </mixins>
+  <mixins name="Spark" scheme="http://org.occiware/platform/bigdata#">
+    <attributes name="occiware.bigdata.uiPort" mutable="false" default="5000" description="uiPort is the port that will display consul user interface">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <attributes name="occiware.bigdata.workersIp" mutable="false" default="" description="workersIp is the list of the slaves ip where the computation will run" type="//@types.0"/>
+    <attributes name="occiware.bigdata.networkName" mutable="false" default="my-net" description="networkName is the name of the network that will link all nodes">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <applies href="http://schemas.ogf.org/occi/platform#//@kinds[term='application']"/>
+  </mixins>
+  <types xsi:type="occi:ArrayType" name="IpList">
+    <type xsi:type="occi:EObjectType" href="http://schemas.ogf.org/occi/platform#//@types.0"/>
+  </types>
+</occi:Extension>

@@ -1,0 +1,157 @@
+\section{OCCI bigdata extension}
+\begin{center}
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & bigdata \\
+  \hline  
+  \textbf{Scheme} & http://org.occiware/platform/bigdata\# \\
+  \hline
+  \textbf{Specification} &  \\
+  \hline
+\end{tabular}
+\end{center}
+
+\subsection{Description}
+The bigdata extension enables to modelize big data platform
+\subsection{Imported OCCI extensions}
+
+\begin{center} 
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & core \\
+  \hline  
+  \textbf{Scheme} & http://schemas.ogf.org/occi/core\# \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{center} 
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & platform \\
+  \hline  
+  \textbf{Scheme} & http://schemas.ogf.org/occi/platform\# \\
+  \hline
+\end{tabular}
+\end{center}
+
+
+\subsection{Types}
+\subsubsection{\texttt{IpList} type}
+
+\begin{itemize}
+\item \textbf{Basic type:} URL
+\end{itemize}
+\subsection{Mixins}
+\subsubsection{\texttt{Storm} mixin}
+\begin{center}
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & Storm \\
+  \hline  
+  \textbf{Scheme} & http://org.occiware/platform/bigdata\# \\
+  \hline
+  \textbf{Title} &  \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{itemize}
+\item \textbf{Applies to}:
+\begin{itemize}
+	\item Application (http://schemas.ogf.org/occi/platform\#)
+\end{itemize}
+\end{itemize} 
+
+\begin{itemize}
+\item \textbf{\texttt{Storm} attributes}
+
+\begin{tabularx}{\textwidth}{|l|l|p{1.4cm}|p{1.3cm}|l|X|}
+  \hline
+  \textbf{Attribute} & \textbf{Type} & \textbf{Required} & \textbf{Mutable} & \textbf{Default} & \textbf{Description} \\
+  \hline  
+  occiware.bigdata.workersNumber & Integer & false & false & 2 & workersNumber is the number of worker that will be deployed \\
+  \hline
+  occiware.bigdata.uiPort & Integer & false & false & 8099 & uiPort is the port that will display visdomuser interface  \\
+  \hline
+\end{tabularx}
+\end{itemize}
+
+
+ 
+\subsubsection{\texttt{HDFS} mixin}
+\begin{center}
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & HDFS \\
+  \hline  
+  \textbf{Scheme} & http://org.occiware/platform/bigdata\# \\
+  \hline
+  \textbf{Title} &  \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{itemize}
+\item \textbf{Applies to}:
+\begin{itemize}
+	\item Component (http://schemas.ogf.org/occi/platform\#)
+\end{itemize}
+\end{itemize} 
+
+\begin{itemize}
+\item \textbf{\texttt{HDFS} attributes}
+
+\begin{tabularx}{\textwidth}{|l|l|p{1.4cm}|p{1.3cm}|l|X|}
+  \hline
+  \textbf{Attribute} & \textbf{Type} & \textbf{Required} & \textbf{Mutable} & \textbf{Default} & \textbf{Description} \\
+  \hline  
+  occiware.bigdata.uiPort & Integer & false & false & 6000 & uiPort will display HDFS user interface \\
+  \hline
+  occiware.bigdata.dataNodesIp & IpList & false & false &  & dataNodesIp is list of nodes ip \\
+  \hline
+  occiware.bigdata.instanceName & String & false & false & hdfsContainer & instanceName is the hdfsContainer name \\
+  \hline
+  occiware.bigdata.masterNodePort & Integer & false & false & 50010 & masterNodePort is the port entry of the master datanode of HDFS  \\
+  \hline
+  occiware.bigdata.masterNodeIp & String & true & false &  & masterNodeIp is the IP adress of the HDFS master node \\
+  \hline
+\end{tabularx}
+\end{itemize}
+
+
+ 
+\subsubsection{\texttt{Spark} mixin}
+\begin{center}
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & Spark \\
+  \hline  
+  \textbf{Scheme} & http://org.occiware/platform/bigdata\# \\
+  \hline
+  \textbf{Title} &  \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{itemize}
+\item \textbf{Applies to}:
+\begin{itemize}
+	\item Application (http://schemas.ogf.org/occi/platform\#)
+\end{itemize}
+\end{itemize} 
+
+\begin{itemize}
+\item \textbf{\texttt{Spark} attributes}
+
+\begin{tabularx}{\textwidth}{|l|l|p{1.4cm}|p{1.3cm}|l|X|}
+  \hline
+  \textbf{Attribute} & \textbf{Type} & \textbf{Required} & \textbf{Mutable} & \textbf{Default} & \textbf{Description} \\
+  \hline  
+  occiware.bigdata.uiPort & String & false & false & 5000 & uiPort is the port that will display consul user interface \\
+  \hline
+  occiware.bigdata.workersIp & IpList & false & false &  & workersIp is the list of the slaves ip where the computation will run \\
+  \hline
+  occiware.bigdata.networkName & String & false & false & my-net & networkName is the name of the network that will link all nodes \\
+  \hline
+\end{tabularx}
+\end{itemize}
+
+
+ 
