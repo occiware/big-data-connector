@@ -131,4 +131,4 @@ h2. EnumerationType Status
 * inactive  
 * error  
 
-Generated at Tue Nov 21 18:23:19 CET 2017 from http://schemas.ogf.org/occi/platform by org.eclipse.cmf.occi.core.gen.textile
+Generated at Thu Nov 23 11:31:50 CET 2017 from http://schemas.ogf.org/occi/platform by org.eclipse.cmf.occi.core.gen.textile

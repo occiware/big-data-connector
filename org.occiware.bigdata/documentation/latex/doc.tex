@@ -35,12 +35,6 @@ The bigdata extension enables to modelize big data platform
 \end{center}
 
 
-\subsection{Types}
-\subsubsection{\texttt{IpList} type}
-
-\begin{itemize}
-\item \textbf{Basic type:} URL
-\end{itemize}
 \subsection{Mixins}
 \subsubsection{\texttt{Storm} mixin}
 \begin{center}
@@ -105,7 +99,7 @@ The bigdata extension enables to modelize big data platform
   \hline  
   occiware.bigdata.uiPort & Integer & false & false & 6000 & uiPort will display HDFS user interface \\
   \hline
-  occiware.bigdata.dataNodesIp & IpList & false & false &  & dataNodesIp is list of nodes ip \\
+  occiware.bigdata.dataNodesIp & String & false & false &  & dataNodesIp is list of nodes ip \\
   \hline
   occiware.bigdata.instanceName & String & false & false & hdfsContainer & instanceName is the hdfsContainer name \\
   \hline
@@ -146,9 +140,44 @@ The bigdata extension enables to modelize big data platform
   \hline  
   occiware.bigdata.uiPort & String & false & false & 5000 & uiPort is the port that will display consul user interface \\
   \hline
-  occiware.bigdata.workersIp & IpList & false & false &  & workersIp is the list of the slaves ip where the computation will run \\
+  occiware.bigdata.workersIp & String & false & false &  & workersIp is the list of the slaves ip where the computation will run \\
   \hline
   occiware.bigdata.networkName & String & false & false & my-net & networkName is the name of the network that will link all nodes \\
+  \hline
+\end{tabularx}
+\end{itemize}
+
+
+ 
+\subsubsection{\texttt{Credentials} mixin}
+\begin{center}
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & Credentials \\
+  \hline  
+  \textbf{Scheme} & http://org.occiware/platform/bigdata\# \\
+  \hline
+  \textbf{Title} &  \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{itemize}
+\item \textbf{Applies to}:
+\begin{itemize}
+	\item Resource (http://schemas.ogf.org/occi/core\#)
+\end{itemize}
+\end{itemize} 
+
+\begin{itemize}
+\item \textbf{\texttt{Credentials} attributes}
+
+\begin{tabularx}{\textwidth}{|l|l|p{1.4cm}|p{1.3cm}|l|X|}
+  \hline
+  \textbf{Attribute} & \textbf{Type} & \textbf{Required} & \textbf{Mutable} & \textbf{Default} & \textbf{Description} \\
+  \hline  
+  occiware.bigdata.username & String & true & true &  & username is the cloud-automation authentication username \\
+  \hline
+  occiware.bigdata.password & String & true & true &  & password is the cloud automation authentication password \\
   \hline
 \end{tabularx}
 \end{itemize}

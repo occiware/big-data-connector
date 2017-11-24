@@ -15,7 +15,9 @@
     <attributes name="occiware.bigdata.uiPort" mutable="false" default="6000" description="uiPort will display HDFS user interface">
       <type xsi:type="occi:NumericType" href="http://schemas.ogf.org/occi/core#//@types.2"/>
     </attributes>
-    <attributes name="occiware.bigdata.dataNodesIp" mutable="false" default="" description="dataNodesIp is list of nodes ip" type="//@types.0"/>
+    <attributes name="occiware.bigdata.dataNodesIp" mutable="false" default="" description="dataNodesIp is list of nodes ip">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
     <attributes name="occiware.bigdata.instanceName" mutable="false" default="hdfsContainer" description="instanceName is the hdfsContainer name">
       <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
     </attributes>
@@ -31,13 +33,24 @@
     <attributes name="occiware.bigdata.uiPort" mutable="false" default="5000" description="uiPort is the port that will display consul user interface">
       <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
     </attributes>
-    <attributes name="occiware.bigdata.workersIp" mutable="false" default="" description="workersIp is the list of the slaves ip where the computation will run" type="//@types.0"/>
+    <attributes name="occiware.bigdata.workersIp" mutable="false" default="" description="workersIp is the list of the slaves ip where the computation will run">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
     <attributes name="occiware.bigdata.networkName" mutable="false" default="my-net" description="networkName is the name of the network that will link all nodes">
       <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
     </attributes>
     <applies href="http://schemas.ogf.org/occi/platform#//@kinds[term='application']"/>
   </mixins>
-  <types xsi:type="occi:ArrayType" name="IpList">
-    <type xsi:type="occi:EObjectType" href="http://schemas.ogf.org/occi/platform#//@types.0"/>
-  </types>
+  <mixins name="Credentials" scheme="http://org.occiware/platform/bigdata#">
+    <attributes name="occiware.bigdata.username" mutable="true" required="true" description="username is the cloud-automation authentication username">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <attributes name="occiware.bigdata.password" mutable="true" required="true" description="password is the cloud automation authentication password">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <attributes name="occiware.bigdata.endpoint" mutable="true">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <applies href="http://schemas.ogf.org/occi/core#//@kinds[term='resource']"/>
+  </mixins>
 </occi:Extension>

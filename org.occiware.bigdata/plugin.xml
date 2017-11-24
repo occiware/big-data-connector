@@ -50,4 +50,11 @@
          </action>
       </objectContribution>
    </extension>
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated bigdata -->
+      <package
+            uri="http://org.occiware/platform/bigdata/ecore"
+            class="org.occiware.bigdata.BigdataPackage"/>
+   </extension>
+
 </plugin>

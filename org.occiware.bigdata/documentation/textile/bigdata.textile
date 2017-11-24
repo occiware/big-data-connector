@@ -41,7 +41,7 @@ Attributes of hdfs are:
 
 | *Attribute* | *Type* | *Required* | *Mutable* | *Default* | *Description* |
 | occiware.bigdata.uiPort | <a href="core.textile#-integer">Integer</a> | false | false | 6000 | uiPort will display HDFS user interface |
-| occiware.bigdata.dataNodesIp | <a href="bigdata.textile#-iplist">IpList</a> | false | false |  | dataNodesIp is list of nodes ip |
+| occiware.bigdata.dataNodesIp | <a href="core.textile#-string">String</a> | false | false |  | dataNodesIp is list of nodes ip |
 | occiware.bigdata.instanceName | <a href="core.textile#-string">String</a> | false | false | hdfsContainer | instanceName is the hdfsContainer name |
 | occiware.bigdata.masterNodePort | <a href="core.textile#-integer">Integer</a> | false | false | 50010 | masterNodePort is the port entry of the master datanode of HDFS  |
 | occiware.bigdata.masterNodeIp | <a href="core.textile#-string">String</a> | true | false |  | masterNodeIp is the IP adress of the HDFS master node |
@@ -59,14 +59,24 @@ Attributes of spark are:
 
 | *Attribute* | *Type* | *Required* | *Mutable* | *Default* | *Description* |
 | occiware.bigdata.uiPort | <a href="core.textile#-string">String</a> | false | false | 5000 | uiPort is the port that will display consul user interface |
-| occiware.bigdata.workersIp | <a href="bigdata.textile#-iplist">IpList</a> | false | false |  | workersIp is the list of the slaves ip where the computation will run |
+| occiware.bigdata.workersIp | <a href="core.textile#-string">String</a> | false | false |  | workersIp is the list of the slaves ip where the computation will run |
 | occiware.bigdata.networkName | <a href="core.textile#-string">String</a> | false | false | my-net | networkName is the name of the network that will link all nodes |
 
 
+h2. Mixin credentials
 
-h1. Types
+| *Term* | credentials |
+| *Scheme* | http://org.occiware/platform/bigdata# |
+| *Title* |  |
+Applies to:
+* <a href="core.textile#kind-resource">http://schemas.ogf.org/occi/core#resource</a>
 
-h2.  ArrayType IpList
+Attributes of credentials are:
 
-Array of <a href="platform.textile#-url">URL</a>
-Generated at Tue Nov 21 18:23:19 CET 2017 from platform:/resource/org.occiware.bigdata/model/bigdata.occie by org.eclipse.cmf.occi.core.gen.textile
+| *Attribute* | *Type* | *Required* | *Mutable* | *Default* | *Description* |
+| occiware.bigdata.username | <a href="core.textile#-string">String</a> | true | true |  | username is the cloud-automation authentication username |
+| occiware.bigdata.password | <a href="core.textile#-string">String</a> | true | true |  | password is the cloud automation authentication password |
+
+
+
+Generated at Thu Nov 23 11:31:50 CET 2017 from platform:/resource/org.occiware.bigdata/model/bigdata.occie by org.eclipse.cmf.occi.core.gen.textile

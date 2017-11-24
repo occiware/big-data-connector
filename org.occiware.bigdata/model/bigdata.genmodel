@@ -7,12 +7,6 @@
   <genPackages prefix="Bigdata" basePackage="org.occiware" disposableProviderFactory="true">
     <ecorePackage href="bigdata.ecore#/"/>
     <genClasses>
-      <ecoreClass href="bigdata.ecore#//IpList"/>
-      <genFeatures createChild="false">
-        <ecoreFeature xsi:type="ecore:EAttribute" href="bigdata.ecore#//IpList/values"/>
-      </genFeatures>
-    </genClasses>
-    <genClasses>
       <ecoreClass href="bigdata.ecore#//Storm"/>
       <genFeatures createChild="false">
         <ecoreFeature xsi:type="ecore:EAttribute" href="bigdata.ecore#//Storm/occiwareBigdataWorkersNumber"/>
@@ -49,6 +43,18 @@
       </genFeatures>
       <genFeatures createChild="false">
         <ecoreFeature xsi:type="ecore:EAttribute" href="bigdata.ecore#//Spark/occiwareBigdataNetworkName"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="bigdata.ecore#//Credentials"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="bigdata.ecore#//Credentials/occiwareBigdataUsername"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="bigdata.ecore#//Credentials/occiwareBigdataPassword"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="bigdata.ecore#//Credentials/occiwareBigdataEndpoint"/>
       </genFeatures>
     </genClasses>
   </genPackages>
