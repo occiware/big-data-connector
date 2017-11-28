@@ -33,16 +33,6 @@ import org.eclipse.emf.ecore.EPackage;
  * <!-- end-user-doc -->
  * @see org.occiware.bigdata.BigdataFactory
  * @model kind="package"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore invocationDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot' settingDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot' validationDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot'"
- *        annotation="http://www.eclipse.org/OCL/Import core='http://schemas.ogf.org/occi/core/ecore' platform='http://schemas.ogf.org/occi/platform/ecore'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore invocationDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot' settingDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot' validationDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot'"
- *        annotation="http://www.eclipse.org/OCL/Import core='http://schemas.ogf.org/occi/core/ecore' platform='http://schemas.ogf.org/occi/platform/ecore'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore invocationDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot' settingDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot' validationDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot'"
- *        annotation="http://www.eclipse.org/OCL/Import core='http://schemas.ogf.org/occi/core/ecore' platform='http://schemas.ogf.org/occi/platform/ecore'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore invocationDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot' settingDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot' validationDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot'"
- *        annotation="http://www.eclipse.org/OCL/Import core='http://schemas.ogf.org/occi/core/ecore' platform='http://schemas.ogf.org/occi/platform/ecore'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore invocationDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot' settingDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot' validationDelegates='http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot'"
- *        annotation="http://www.eclipse.org/OCL/Import core='http://schemas.ogf.org/occi/core/ecore' platform='http://schemas.ogf.org/occi/platform/ecore'"
  * @generated
  */
 public interface BigdataPackage extends EPackage {
@@ -149,7 +139,7 @@ public interface BigdataPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int STORM___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 5;
+	int STORM___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 0;
 
 	/**
 	 * The number of operations of the '<em>Storm</em>' class.
@@ -158,7 +148,7 @@ public interface BigdataPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int STORM_OPERATION_COUNT = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 6;
+	int STORM_OPERATION_COUNT = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 1;
 
 	/**
 	 * The meta object id for the '{@link org.occiware.bigdata.impl.HdfsImpl <em>Hdfs</em>}' class.
@@ -258,7 +248,7 @@ public interface BigdataPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int HDFS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 5;
+	int HDFS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 0;
 
 	/**
 	 * The number of operations of the '<em>Hdfs</em>' class.
@@ -267,7 +257,7 @@ public interface BigdataPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int HDFS_OPERATION_COUNT = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 6;
+	int HDFS_OPERATION_COUNT = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 1;
 
 	/**
 	 * The meta object id for the '{@link org.occiware.bigdata.impl.SparkImpl <em>Spark</em>}' class.
@@ -349,7 +339,7 @@ public interface BigdataPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int SPARK___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 5;
+	int SPARK___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 0;
 
 	/**
 	 * The number of operations of the '<em>Spark</em>' class.
@@ -358,8 +348,7 @@ public interface BigdataPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int SPARK_OPERATION_COUNT = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 6;
-
+	int SPARK_OPERATION_COUNT = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 1;
 
 	/**
 	 * The meta object id for the '{@link org.occiware.bigdata.impl.CredentialsImpl <em>Credentials</em>}' class.
@@ -441,7 +430,7 @@ public interface BigdataPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int CREDENTIALS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 2;
+	int CREDENTIALS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 0;
 
 	/**
 	 * The number of operations of the '<em>Credentials</em>' class.
@@ -450,7 +439,7 @@ public interface BigdataPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int CREDENTIALS_OPERATION_COUNT = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 3;
+	int CREDENTIALS_OPERATION_COUNT = OCCIPackage.MIXIN_BASE_OPERATION_COUNT + 1;
 
 
 	/**
@@ -484,56 +473,6 @@ public interface BigdataPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getStorm_OcciwareBigdataUiPort();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getStorm__AppliesConstraint__DiagnosticChain_Map_1();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getStorm__AppliesConstraint__DiagnosticChain_Map_2();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getStorm__AppliesConstraint__DiagnosticChain_Map_3();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getStorm__AppliesConstraint__DiagnosticChain_Map_4();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getStorm__AppliesConstraint__DiagnosticChain_Map_5();
 
 	/**
 	 * Returns the meta object for the '{@link org.occiware.bigdata.Storm#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
@@ -618,56 +557,6 @@ public interface BigdataPackage extends EPackage {
 	 * @see org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
 	 * @generated
 	 */
-	EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map_1();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map_2();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map_3();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map_4();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map_5();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Hdfs#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
 	EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map();
 
 	/**
@@ -721,56 +610,6 @@ public interface BigdataPackage extends EPackage {
 	 * @see org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
 	 * @generated
 	 */
-	EOperation getSpark__AppliesConstraint__DiagnosticChain_Map_1();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getSpark__AppliesConstraint__DiagnosticChain_Map_2();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getSpark__AppliesConstraint__DiagnosticChain_Map_3();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getSpark__AppliesConstraint__DiagnosticChain_Map_4();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getSpark__AppliesConstraint__DiagnosticChain_Map_5();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Spark#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
 	EOperation getSpark__AppliesConstraint__DiagnosticChain_Map();
 
 	/**
@@ -815,26 +654,6 @@ public interface BigdataPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getCredentials_OcciwareBigdataEndpoint();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Credentials#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Credentials#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getCredentials__AppliesConstraint__DiagnosticChain_Map_1();
-
-	/**
-	 * Returns the meta object for the '{@link org.occiware.bigdata.Credentials#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Applies Constraint</em>' operation.
-	 * @see org.occiware.bigdata.Credentials#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map)
-	 * @generated
-	 */
-	EOperation getCredentials__AppliesConstraint__DiagnosticChain_Map_2();
 
 	/**
 	 * Returns the meta object for the '{@link org.occiware.bigdata.Credentials#appliesConstraint(org.eclipse.emf.common.util.DiagnosticChain, java.util.Map) <em>Applies Constraint</em>}' operation.
@@ -901,46 +720,6 @@ public interface BigdataPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EOperation STORM___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_1 = eINSTANCE.getStorm__AppliesConstraint__DiagnosticChain_Map_1();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation STORM___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_2 = eINSTANCE.getStorm__AppliesConstraint__DiagnosticChain_Map_2();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation STORM___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_3 = eINSTANCE.getStorm__AppliesConstraint__DiagnosticChain_Map_3();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation STORM___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_4 = eINSTANCE.getStorm__AppliesConstraint__DiagnosticChain_Map_4();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation STORM___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_5 = eINSTANCE.getStorm__AppliesConstraint__DiagnosticChain_Map_5();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
 		EOperation STORM___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = eINSTANCE.getStorm__AppliesConstraint__DiagnosticChain_Map();
 
 		/**
@@ -999,46 +778,6 @@ public interface BigdataPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EOperation HDFS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_1 = eINSTANCE.getHdfs__AppliesConstraint__DiagnosticChain_Map_1();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation HDFS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_2 = eINSTANCE.getHdfs__AppliesConstraint__DiagnosticChain_Map_2();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation HDFS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_3 = eINSTANCE.getHdfs__AppliesConstraint__DiagnosticChain_Map_3();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation HDFS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_4 = eINSTANCE.getHdfs__AppliesConstraint__DiagnosticChain_Map_4();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation HDFS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_5 = eINSTANCE.getHdfs__AppliesConstraint__DiagnosticChain_Map_5();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
 		EOperation HDFS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = eINSTANCE.getHdfs__AppliesConstraint__DiagnosticChain_Map();
 
 		/**
@@ -1081,46 +820,6 @@ public interface BigdataPackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EOperation SPARK___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_1 = eINSTANCE.getSpark__AppliesConstraint__DiagnosticChain_Map_1();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation SPARK___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_2 = eINSTANCE.getSpark__AppliesConstraint__DiagnosticChain_Map_2();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation SPARK___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_3 = eINSTANCE.getSpark__AppliesConstraint__DiagnosticChain_Map_3();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation SPARK___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_4 = eINSTANCE.getSpark__AppliesConstraint__DiagnosticChain_Map_4();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation SPARK___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_5 = eINSTANCE.getSpark__AppliesConstraint__DiagnosticChain_Map_5();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
 		EOperation SPARK___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP = eINSTANCE.getSpark__AppliesConstraint__DiagnosticChain_Map();
 
 		/**
@@ -1156,22 +855,6 @@ public interface BigdataPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute CREDENTIALS__OCCIWARE_BIGDATA_ENDPOINT = eINSTANCE.getCredentials_OcciwareBigdataEndpoint();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation CREDENTIALS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_1 = eINSTANCE.getCredentials__AppliesConstraint__DiagnosticChain_Map_1();
-
-		/**
-		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation CREDENTIALS___APPLIES_CONSTRAINT__DIAGNOSTICCHAIN_MAP_2 = eINSTANCE.getCredentials__AppliesConstraint__DiagnosticChain_Map_2();
 
 		/**
 		 * The meta object literal for the '<em><b>Applies Constraint</b></em>' operation.

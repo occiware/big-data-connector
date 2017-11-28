@@ -1066,10 +1066,10 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='BooleanTypeContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='BooleanTypeContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_BqeahM4SEeec7Nt1JxYwTQ" name="boolean" tooltipText="org.eclipse.cmf.occi.core.impl.BooleanTypeImpl@3ea44e17 (name: Boolean, documentation: Data type for booleans)">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_BqeahM4SEeec7Nt1JxYwTQ" name="boolean" tooltipText="org.eclipse.cmf.occi.core.impl.BooleanTypeImpl@48deaf81 (name: Boolean, documentation: Data type for booleans)">
           <target xmi:type="occi:BooleanType" href="http://schemas.ogf.org/occi/core#//@types.1"/>
           <semanticElements xmi:type="occi:BooleanType" href="http://schemas.ogf.org/occi/core#//@types.1"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Bqeahc4SEeec7Nt1JxYwTQ" showIcon="false">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Bqeahc4SEeec7Nt1JxYwTQ" labelSize="10" showIcon="false">
             <labelFormat>italic</labelFormat>
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='BooleanTypeContainer']/@subNodeMappings[name='EC_BooleanType_Type']/@style"/>
           </ownedStyle>
@@ -1084,10 +1084,10 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='StringTypeContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='StringTypeContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_BqeaiM4SEeec7Nt1JxYwTQ" name="java.lang.String" tooltipText="org.eclipse.cmf.occi.core.impl.StringTypeImpl@13e0770f (name: String, documentation: Data type for strings) (pattern: null, length: &lt;unset>, minLength: &lt;unset>, maxLength: &lt;unset>)">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_BqeaiM4SEeec7Nt1JxYwTQ" name="java.lang.String" tooltipText="org.eclipse.cmf.occi.core.impl.StringTypeImpl@767915a8 (name: String, documentation: Data type for strings) (pattern: null, length: &lt;unset>, minLength: &lt;unset>, maxLength: &lt;unset>)">
           <target xmi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
           <semanticElements xmi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Bqeaic4SEeec7Nt1JxYwTQ" showIcon="false">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Bqeaic4SEeec7Nt1JxYwTQ" labelSize="10" showIcon="false">
             <labelFormat>italic</labelFormat>
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='StringTypeContainer']/@subNodeMappings[name='EC_StringType_Type']/@style"/>
           </ownedStyle>
@@ -1102,10 +1102,10 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='NumericTypeContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='NumericTypeContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_BqeajM4SEeec7Nt1JxYwTQ" name="Integer" tooltipText="org.eclipse.cmf.occi.core.impl.NumericTypeImpl@59d6e6ad (name: Integer, documentation: Data type for integers) (type: Integer, totalDigits: &lt;unset>, minExclusive: &lt;unset>, maxExclusive: &lt;unset>, minInclusive: &lt;unset>, maxInclusive: &lt;unset>)">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_BqeajM4SEeec7Nt1JxYwTQ" name="Integer" tooltipText="org.eclipse.cmf.occi.core.impl.NumericTypeImpl@22e0cc8c (name: Integer, documentation: Data type for integers) (type: Integer, totalDigits: &lt;unset>, minExclusive: &lt;unset>, maxExclusive: &lt;unset>, minInclusive: &lt;unset>, maxInclusive: &lt;unset>)">
           <target xmi:type="occi:NumericType" href="http://schemas.ogf.org/occi/core#//@types.2"/>
           <semanticElements xmi:type="occi:NumericType" href="http://schemas.ogf.org/occi/core#//@types.2"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Bqeajc4SEeec7Nt1JxYwTQ" showIcon="false">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Bqeajc4SEeec7Nt1JxYwTQ" labelSize="10" showIcon="false">
             <labelFormat>italic</labelFormat>
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='NumericTypeContainer']/@subNodeMappings[name='EC_ENumericType_Type']/@style"/>
           </ownedStyle>
@@ -1362,10 +1362,10 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EObjectTypeContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EObjectTypeContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Bqeaxs4SEeec7Nt1JxYwTQ" name="java.net.URL" tooltipText="org.eclipse.cmf.occi.core.impl.EObjectTypeImpl@63cbd058 (name: URL, documentation: null) (instanceClassName: java.net.URL)">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Bqeaxs4SEeec7Nt1JxYwTQ" name="java.net.URL" tooltipText="org.eclipse.cmf.occi.core.impl.EObjectTypeImpl@762d069 (name: URL, documentation: null) (instanceClassName: java.net.URL)">
           <target xmi:type="occi:EObjectType" href="http://schemas.ogf.org/occi/platform#//@types.0"/>
           <semanticElements xmi:type="occi:EObjectType" href="http://schemas.ogf.org/occi/platform#//@types.0"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Bqeax84SEeec7Nt1JxYwTQ" showIcon="false">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Bqeax84SEeec7Nt1JxYwTQ" labelSize="10" showIcon="false">
             <labelFormat>italic</labelFormat>
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EObjectTypeContainer']/@subNodeMappings[name='EC_EObjectType_InstanceClassName']/@style"/>
           </ownedStyle>
@@ -1380,10 +1380,10 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EObjectTypeContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EObjectTypeContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Bqeays4SEeec7Nt1JxYwTQ" name="java.net.URI" tooltipText="org.eclipse.cmf.occi.core.impl.EObjectTypeImpl@18514f04 (name: URI, documentation: null) (instanceClassName: java.net.URI)">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Bqeays4SEeec7Nt1JxYwTQ" name="java.net.URI" tooltipText="org.eclipse.cmf.occi.core.impl.EObjectTypeImpl@6221fcee (name: URI, documentation: null) (instanceClassName: java.net.URI)">
           <target xmi:type="occi:EObjectType" href="http://schemas.ogf.org/occi/platform#//@types.1"/>
           <semanticElements xmi:type="occi:EObjectType" href="http://schemas.ogf.org/occi/platform#//@types.1"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Bqeay84SEeec7Nt1JxYwTQ" showIcon="false">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Bqeay84SEeec7Nt1JxYwTQ" labelSize="10" showIcon="false">
             <labelFormat>italic</labelFormat>
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.cmf.occi.core.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='EObjectTypeContainer']/@subNodeMappings[name='EC_EObjectType_InstanceClassName']/@style"/>
           </ownedStyle>

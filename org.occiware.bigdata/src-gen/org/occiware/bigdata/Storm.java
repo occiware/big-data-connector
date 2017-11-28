@@ -33,11 +33,6 @@ import org.eclipse.emf.common.util.DiagnosticChain;
  *
  * @see org.occiware.bigdata.BigdataPackage#getStorm()
  * @model annotation="http://www.eclipse.org/emf/2002/Ecore constraints='appliesConstraint'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore constraints='appliesConstraint'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore constraints='appliesConstraint'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore constraints='appliesConstraint'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore constraints='appliesConstraint'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore constraints='appliesConstraint'"
  * @generated
  */
 public interface Storm extends MixinBase {

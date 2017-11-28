@@ -175,53 +175,8 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getStorm__AppliesConstraint__DiagnosticChain_Map_1() {
-		return stormEClass.getEOperations().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getStorm__AppliesConstraint__DiagnosticChain_Map_2() {
-		return stormEClass.getEOperations().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getStorm__AppliesConstraint__DiagnosticChain_Map_3() {
-		return stormEClass.getEOperations().get(2);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getStorm__AppliesConstraint__DiagnosticChain_Map_4() {
-		return stormEClass.getEOperations().get(3);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getStorm__AppliesConstraint__DiagnosticChain_Map_5() {
-		return stormEClass.getEOperations().get(4);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EOperation getStorm__AppliesConstraint__DiagnosticChain_Map() {
-		return stormEClass.getEOperations().get(5);
+		return stormEClass.getEOperations().get(0);
 	}
 
 	/**
@@ -283,53 +238,8 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map_1() {
-		return hdfsEClass.getEOperations().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map_2() {
-		return hdfsEClass.getEOperations().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map_3() {
-		return hdfsEClass.getEOperations().get(2);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map_4() {
-		return hdfsEClass.getEOperations().get(3);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map_5() {
-		return hdfsEClass.getEOperations().get(4);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EOperation getHdfs__AppliesConstraint__DiagnosticChain_Map() {
-		return hdfsEClass.getEOperations().get(5);
+		return hdfsEClass.getEOperations().get(0);
 	}
 
 	/**
@@ -373,53 +283,8 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getSpark__AppliesConstraint__DiagnosticChain_Map_1() {
-		return sparkEClass.getEOperations().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getSpark__AppliesConstraint__DiagnosticChain_Map_2() {
-		return sparkEClass.getEOperations().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getSpark__AppliesConstraint__DiagnosticChain_Map_3() {
-		return sparkEClass.getEOperations().get(2);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getSpark__AppliesConstraint__DiagnosticChain_Map_4() {
-		return sparkEClass.getEOperations().get(3);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getSpark__AppliesConstraint__DiagnosticChain_Map_5() {
-		return sparkEClass.getEOperations().get(4);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EOperation getSpark__AppliesConstraint__DiagnosticChain_Map() {
-		return sparkEClass.getEOperations().get(5);
+		return sparkEClass.getEOperations().get(0);
 	}
 
 	/**
@@ -463,26 +328,8 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getCredentials__AppliesConstraint__DiagnosticChain_Map_1() {
-		return credentialsEClass.getEOperations().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getCredentials__AppliesConstraint__DiagnosticChain_Map_2() {
-		return credentialsEClass.getEOperations().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EOperation getCredentials__AppliesConstraint__DiagnosticChain_Map() {
-		return credentialsEClass.getEOperations().get(2);
+		return credentialsEClass.getEOperations().get(0);
 	}
 
 	/**
@@ -580,55 +427,10 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 		initEAttribute(getStorm_OcciwareBigdataWorkersNumber(), theOCCIPackage.getInteger(), "occiwareBigdataWorkersNumber", "2", 0, 1, Storm.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getStorm_OcciwareBigdataUiPort(), theOCCIPackage.getInteger(), "occiwareBigdataUiPort", "8099", 0, 1, Storm.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-		EOperation op = initEOperation(getStorm__AppliesConstraint__DiagnosticChain_Map_1(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
+		EOperation op = initEOperation(getStorm__AppliesConstraint__DiagnosticChain_Map(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
 		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
 		EGenericType g1 = createEGenericType(ecorePackage.getEMap());
 		EGenericType g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getStorm__AppliesConstraint__DiagnosticChain_Map_2(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getStorm__AppliesConstraint__DiagnosticChain_Map_3(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getStorm__AppliesConstraint__DiagnosticChain_Map_4(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getStorm__AppliesConstraint__DiagnosticChain_Map_5(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getStorm__AppliesConstraint__DiagnosticChain_Map(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
 		g1.getETypeArguments().add(g2);
 		g2 = createEGenericType(ecorePackage.getEJavaObject());
 		g1.getETypeArguments().add(g2);
@@ -640,51 +442,6 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 		initEAttribute(getHdfs_OcciwareBigdataInstanceName(), theOCCIPackage.getString(), "occiwareBigdataInstanceName", "hdfsContainer", 0, 1, Hdfs.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getHdfs_OcciwareBigdataMasterNodePort(), theOCCIPackage.getInteger(), "occiwareBigdataMasterNodePort", "50010", 0, 1, Hdfs.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getHdfs_OcciwareBigdataMasterNodeIp(), theOCCIPackage.getString(), "occiwareBigdataMasterNodeIp", null, 1, 1, Hdfs.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-
-		op = initEOperation(getHdfs__AppliesConstraint__DiagnosticChain_Map_1(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getHdfs__AppliesConstraint__DiagnosticChain_Map_2(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getHdfs__AppliesConstraint__DiagnosticChain_Map_3(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getHdfs__AppliesConstraint__DiagnosticChain_Map_4(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getHdfs__AppliesConstraint__DiagnosticChain_Map_5(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		op = initEOperation(getHdfs__AppliesConstraint__DiagnosticChain_Map(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
 		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
@@ -700,51 +457,6 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 		initEAttribute(getSpark_OcciwareBigdataWorkersIp(), theOCCIPackage.getString(), "occiwareBigdataWorkersIp", null, 0, 1, Spark.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getSpark_OcciwareBigdataNetworkName(), theOCCIPackage.getString(), "occiwareBigdataNetworkName", "my-net", 0, 1, Spark.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-		op = initEOperation(getSpark__AppliesConstraint__DiagnosticChain_Map_1(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getSpark__AppliesConstraint__DiagnosticChain_Map_2(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getSpark__AppliesConstraint__DiagnosticChain_Map_3(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getSpark__AppliesConstraint__DiagnosticChain_Map_4(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getSpark__AppliesConstraint__DiagnosticChain_Map_5(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
 		op = initEOperation(getSpark__AppliesConstraint__DiagnosticChain_Map(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
 		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
 		g1 = createEGenericType(ecorePackage.getEMap());
@@ -758,24 +470,6 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 		initEAttribute(getCredentials_OcciwareBigdataUsername(), theOCCIPackage.getString(), "occiwareBigdataUsername", null, 1, 1, Credentials.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getCredentials_OcciwareBigdataPassword(), theOCCIPackage.getString(), "occiwareBigdataPassword", null, 1, 1, Credentials.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getCredentials_OcciwareBigdataEndpoint(), theOCCIPackage.getString(), "occiwareBigdataEndpoint", null, 0, 1, Credentials.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-
-		op = initEOperation(getCredentials__AppliesConstraint__DiagnosticChain_Map_1(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		op = initEOperation(getCredentials__AppliesConstraint__DiagnosticChain_Map_2(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
-		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
-		g1 = createEGenericType(ecorePackage.getEMap());
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		g2 = createEGenericType(ecorePackage.getEJavaObject());
-		g1.getETypeArguments().add(g2);
-		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		op = initEOperation(getCredentials__AppliesConstraint__DiagnosticChain_Map(), ecorePackage.getEBoolean(), "appliesConstraint", 0, 1, IS_UNIQUE, IS_ORDERED);
 		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
@@ -792,8 +486,6 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 		// Create annotations
 		// http://www.eclipse.org/emf/2002/Ecore
 		createEcoreAnnotations();
-		// http://www.eclipse.org/OCL/Import
-		createImportAnnotations();
 	}
 
 	/**
@@ -810,76 +502,6 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 		   new String[] {
 		   });	
 		addAnnotation
-		  (this, 
-		   source, 
-		   new String[] {
-			 "invocationDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-			 "settingDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-			 "validationDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"
-		   });	
-		addAnnotation
-		  (this, 
-		   source, 
-		   new String[] {
-			 "invocationDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-			 "settingDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-			 "validationDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"
-		   });	
-		addAnnotation
-		  (this, 
-		   source, 
-		   new String[] {
-			 "invocationDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-			 "settingDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-			 "validationDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"
-		   });	
-		addAnnotation
-		  (this, 
-		   source, 
-		   new String[] {
-			 "invocationDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-			 "settingDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-			 "validationDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"
-		   });	
-		addAnnotation
-		  (this, 
-		   source, 
-		   new String[] {
-			 "invocationDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-			 "settingDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot",
-			 "validationDelegates", "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"
-		   });	
-		addAnnotation
-		  (stormEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (stormEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (stormEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (stormEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (stormEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
 		  (stormEClass, 
 		   source, 
 		   new String[] {
@@ -887,66 +509,6 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 		   });	
 		addAnnotation
 		  (hdfsEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (hdfsEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (hdfsEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (hdfsEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (hdfsEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (hdfsEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (sparkEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (sparkEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (sparkEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (sparkEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (sparkEClass, 
 		   source, 
 		   new String[] {
 			 "constraints", "appliesConstraint"
@@ -962,63 +524,6 @@ public class BigdataPackageImpl extends EPackageImpl implements BigdataPackage {
 		   source, 
 		   new String[] {
 			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (credentialsEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });	
-		addAnnotation
-		  (credentialsEClass, 
-		   source, 
-		   new String[] {
-			 "constraints", "appliesConstraint"
-		   });
-	}
-
-	/**
-	 * Initializes the annotations for <b>http://www.eclipse.org/OCL/Import</b>.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void createImportAnnotations() {
-		String source = "http://www.eclipse.org/OCL/Import";	
-		addAnnotation
-		  (this, 
-		   source, 
-		   new String[] {
-			 "core", "http://schemas.ogf.org/occi/core/ecore",
-			 "platform", "http://schemas.ogf.org/occi/platform/ecore"
-		   });	
-		addAnnotation
-		  (this, 
-		   source, 
-		   new String[] {
-			 "core", "http://schemas.ogf.org/occi/core/ecore",
-			 "platform", "http://schemas.ogf.org/occi/platform/ecore"
-		   });	
-		addAnnotation
-		  (this, 
-		   source, 
-		   new String[] {
-			 "core", "http://schemas.ogf.org/occi/core/ecore",
-			 "platform", "http://schemas.ogf.org/occi/platform/ecore"
-		   });	
-		addAnnotation
-		  (this, 
-		   source, 
-		   new String[] {
-			 "core", "http://schemas.ogf.org/occi/core/ecore",
-			 "platform", "http://schemas.ogf.org/occi/platform/ecore"
-		   });	
-		addAnnotation
-		  (this, 
-		   source, 
-		   new String[] {
-			 "core", "http://schemas.ogf.org/occi/core/ecore",
-			 "platform", "http://schemas.ogf.org/occi/platform/ecore"
 		   });
 	}
 
