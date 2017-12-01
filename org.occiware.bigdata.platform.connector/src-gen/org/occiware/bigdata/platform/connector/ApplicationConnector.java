@@ -14,10 +14,18 @@
  */
 package org.occiware.bigdata.platform.connector;
 
+import io.restassured.http.ContentType;
+import org.eclipse.cmf.occi.platform.Status;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+import org.occiware.bigdata.connector.CredentialsConnector;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.eclipse.cmf.occi.platform.Status;
+import java.util.Optional;
+
+import static io.restassured.RestAssured.given;
+
 /**
  * Connector implementation for the OCCI kind:
  * - scheme: http://schemas.ogf.org/occi/platform#
@@ -30,6 +38,8 @@ public class ApplicationConnector extends org.eclipse.cmf.occi.platform.impl.App
 	 * Initialize the logger.
 	 */
 	private static Logger LOGGER = LoggerFactory.getLogger(ApplicationConnector.class);
+
+	private static final String SERVICE_INSTANCE_PATH = "/cloud-automation-service/serviceInstances";
 
 	// Start of user code Applicationconnector_constructor
 	/**
@@ -115,7 +125,35 @@ public class ApplicationConnector extends org.eclipse.cmf.occi.platform.impl.App
 			LOGGER.debug("Fire transition(state=inactive, action=\"start\")...");
 			// TODO Implement transition(state=inactive, action="start")
 			setOcciAppState(Status.ACTIVE);
-			break;
+
+            CredentialsConnector creds = getCredentialsConnector();
+
+
+            JSONObject content = new JSONObject();
+            JSONObject genericInfo = new JSONObject();
+            JSONObject variables = new JSONObject();
+
+            genericInfo.put("pca.service.model","proactive.platform.bigdata");
+            genericInfo.put("pca.service.type","Platform");
+            genericInfo.put("pca.action.type","create");
+
+            variables.put("pca.instance.id",this.getTitle());
+
+            content.put("genericInfo",genericInfo);
+            content.put("variables",variables);
+
+            LOGGER.info("POST request in order to start the platform :\n"+content.toJSONString());
+            Optional<String> optionalResponse = RequestUtils.postRequestWithSessionId(
+                    given().contentType(ContentType.JSON)
+                            .body(content.toJSONString()),
+                    creds.getUrl() + SERVICE_INSTANCE_PATH,
+                    creds);
+            JSONObject response = (JSONObject) JSONValue.parse(optionalResponse
+                    .orElseThrow(() -> new ConnectionFailedException("Unable to get the instance "+title)));
+
+            LOGGER.info(response.toJSONString());
+
+            break;
 
 		default:
 			break;
@@ -142,12 +180,44 @@ public class ApplicationConnector extends org.eclipse.cmf.occi.platform.impl.App
 			LOGGER.debug("Fire transition(state=active, action=\"stop\")...");
 			// TODO Implement transition(state=active, action="stop")
 			setOcciAppState(Status.INACTIVE);
-			break;
+
+            CredentialsConnector creds = getCredentialsConnector();
+
+            JSONObject content = new JSONObject();
+            JSONObject genericInfo = new JSONObject();
+            JSONObject variables = new JSONObject();
+
+
+
+            genericInfo.put("pca.service.model","proactive.platform.bigdata");
+            genericInfo.put("pca.service.type","Platform");
+            genericInfo.put("pca.action.type","delete");
+
+            variables.put("pca.instance.id",this.getTitle());
+
+            content.put("genericInfo",genericInfo);
+            content.put("variables",variables);
+
+
+            LOGGER.info("DELETE request in order to delete the application");
+            LOGGER.info("Delete request \n : "+content.toJSONString());
+            Optional<String> optionalResponse = RequestUtils.deleteRequestWithSessionId(
+                    given().contentType(ContentType.JSON)
+                            .body(content.toJSONString()),
+                    creds.getUrl()+SERVICE_INSTANCE_PATH,
+                    creds);
+            LOGGER.info(optionalResponse.orElse("No response for the stop application request"));
+
+            break;
 
 		default:
 			break;
 		}
 	}
-		// End of user code
 
+    private CredentialsConnector getCredentialsConnector(){
+        return MixinUtils.getMixinBase(this.getParts(),CredentialsConnector.class)
+                .orElseThrow(() -> new MissingParameterException("Credentials mixin was not associated to the instance"));
+    }
+		// End of user code
 }	

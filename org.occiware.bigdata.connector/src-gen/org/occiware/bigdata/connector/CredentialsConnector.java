@@ -14,8 +14,17 @@
  */
 package org.occiware.bigdata.connector;
 
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Optional;
+import java.util.Properties;
+
+import static io.restassured.RestAssured.given;
 
 /**
  * Connector implementation for the OCCI kind:
@@ -30,6 +39,10 @@ public class CredentialsConnector extends org.occiware.bigdata.impl.CredentialsI
 	 */
 	private static Logger LOGGER = LoggerFactory.getLogger(CredentialsConnector.class);
 
+	private static final String PATH = "/rest/scheduler/login";
+
+	private String sessionid;
+
 	// Start of user code Credentialsconnector_constructor
 	/**
 	 * Constructs a credentials connector.
@@ -39,5 +52,59 @@ public class CredentialsConnector extends org.occiware.bigdata.impl.CredentialsI
 		LOGGER.debug("Constructor called on " + this);
 		// TODO: Implement this constructor.
 	}
-	// End of user code
+
+	public String getSessionid(){
+		return sessionid;
+	}
+
+	public void refreshSessionId(){
+		LOGGER.info("Try to get the sessionid from : "+getUrl());
+
+		String bodyContent = "username="+getOcciwareBigdataUsername()+"&password="+getOcciwareBigdataPassword();
+
+		Response response = given()
+				.contentType(ContentType.URLENC)
+				.body(bodyContent)
+				.when()
+				.post(getUrl()+PATH)
+				.then()
+				.extract()
+				.response();
+		if(! responseIs2xx(response)){
+			LOGGER.error("Failed to get the sessionid from cloudautomation : \n"+response.asString());
+			throw new RuntimeException("Failed to get the session id");
+		}
+		sessionid = response.asString();
+	}
+
+    private boolean responseIs2xx(Response response) {
+        if (!(200 <= response.getStatusCode() && response.getStatusCode() < 300)) {
+            return false;
+        }
+        return true;
+    }
+
+    public String getUrl(){
+	    Optional<String> optionalUrl = Optional.ofNullable(this.getOcciwareBigdataEndpoint())
+                .filter(urlAttribute-> ! urlAttribute.isEmpty());
+	    if (optionalUrl.isPresent()){
+	        LOGGER.info("Attribute url loaded ");
+	        return optionalUrl.get();
+        }
+
+        Properties prop = new Properties();
+        try (InputStream input = CredentialsConnector.class.getClassLoader().getResourceAsStream("resources/config.properties")){
+            prop.load(input);
+            LOGGER.info("Property loaded "+ prop.getProperty("server.endpoint"));
+            return prop.getProperty("server.endpoint");
+
+        } catch (IOException ex) {
+            LOGGER.error("Unable to get the cloud automation service url from config.properties", ex);
+        }
+        LOGGER.info("Using default url : localhost:8080");
+        return "localhost:8080";
+    }
+
+
+    // End of user code
 }	

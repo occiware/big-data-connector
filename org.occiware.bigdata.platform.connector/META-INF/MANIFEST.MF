@@ -3,11 +3,17 @@ Bundle-ManifestVersion: 2
 Bundle-Name: org.occiware.bigdata.platform.connector
 Bundle-SymbolicName: org.occiware.bigdata.platform.connector;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-ClassPath: .
+Bundle-ClassPath: .,
+  lib/rest-assured-3.0.3.jar,
+  lib/json-simple-1.1.1.jar
 Bundle-Vendor: OCCIware
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.slf4j.api,
  org.eclipse.cmf.occi.core,
- org.eclipse.cmf.occi.platform
-Export-Package: org.occiware.bigdata.platform.connector
+ org.eclipse.cmf.occi.platform,
+ org.occiware.bigdata.connector
+Export-Package: org.occiware.bigdata.platform.connector,
+  org.occiware.bigdata.connector,
+  io.restassured,
+  org.json.simple

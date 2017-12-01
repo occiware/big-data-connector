@@ -71,8 +71,8 @@
         <!-- Cloud Automation modules -->
 	<module>org.occiware.bigdata</module>
 	<module>org.occiware.bigdata.edit</module>
-	<module>org.occiware.bigdata.connector</module>
-	<module>org.occiware.bigdata.platform.connector</module>
+    <module>org.occiware.bigdata.connector</module>
+    <module>org.occiware.bigdata.platform.connector</module>
     </modules>
     
     <properties>

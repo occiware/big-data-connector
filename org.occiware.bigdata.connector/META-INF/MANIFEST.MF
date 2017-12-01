@@ -11,5 +11,7 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.slf4j.api,
  org.eclipse.cmf.occi.core,
- org.occiware.bigdata
-Export-Package: org.occiware.bigdata.connector
+  org.occiware.bigdata
+Export-Package: org.occiware.bigdata.connector,
+  io.restassured,
+  org.json.simple
